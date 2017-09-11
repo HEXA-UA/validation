@@ -6,8 +6,8 @@ class GreaterThan extends AbstractRule
     const OPTION_MIN = 'min';
     const OPTION_INCLUSIVE = 'inclusive';
 
-    const MESSAGE = 'This input should be greater than {min}';
-    const LABELED_MESSAGE = '{label} should be greater than {min}';
+    const MESSAGE = 'This input should be greater than {min} inclusive';
+    const LABELED_MESSAGE = '{label} should be greater than {min} inclusive';
 
     protected $options = array(
         'inclusive' => true
