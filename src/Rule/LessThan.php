@@ -6,8 +6,8 @@ class LessThan extends AbstractRule
     const OPTION_MAX = 'max';
     const OPTION_INCLUSIVE = 'inclusive';
 
-    const MESSAGE = 'This input should be less than {max}';
-    const LABELED_MESSAGE = '{label} should be less than {max}';
+    const MESSAGE = 'This input should be less than {max} inclusive';
+    const LABELED_MESSAGE = '{label} should be less than {max} inclusive';
 
     protected $options = array(
         'inclusive' => true
